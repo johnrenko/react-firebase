@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import SearchBar from './components/SearchBar.js';
+import LogInPanel from './components/LogInPanel.js';
 import * as firebase from "firebase";
 
 class App extends Component {
@@ -39,7 +39,7 @@ class App extends Component {
         </div>
 
           <h1>{this.state.speed}</h1>
-                    <SearchBar onTermChange={this.handleTermChange}/>
+                    <LogInPanel onTermChange={this.handleTermChange}/>
 
       </div>
     );

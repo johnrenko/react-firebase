@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .App-logo {
@@ -21,4 +22,51 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: small;
+  margin-bottom: 2px;
+}
+
+.Login_Panel {
+  display: inline-block;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.Login_Panel_Email {
+  display: block;
+  min-width: 250px;
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.Login_Panel_Password {
+  display: block;
+  min-width: 250px;
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.Login_Panel_Button {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+  background-color: #039BE5;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  padding: 5px 0px 5px 0px;
 }
